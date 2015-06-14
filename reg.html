@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ><!-- ng-app="jsonData" -->
+<head>
+
+	<title>The Apartment</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./include/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/bootstrap/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/basic.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/reg.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body ><!-- ng-controller="jsonDataController" -->
+
+<div id="wrapper">
+
+
+	<main><br>
+
+
+	<article id="topArt">
+		
+		<h1>LOGO</h1>
+
+	</article>
+
+
+	<form action="https://appserverv1.herokuapp.com/reg" method="POST">
+
+
+		<section id="regPart1">
+
+			<input type="email"  placeholder="אימייל" name="mail" required>
+			<input type="text"  placeholder="שם משתמש" name="user" required>
+			<input type="password" id="pass1" placeholder="סיסמא" name="pass" required>
+			<input type="password" id="pass2" placeholder="אימות סיסמא" name="pass2" required>
+		
+			<section id="regNext">המשך</section> <!-- I did not used button because it some how ends my form when clicked, no idea why-->
+
+		</section>
+
+
+		<section id="regPart2">
+
+			<input type="text"  placeholder="עיר מגורים" name="city" required>
+			<input type="text" placeholder="רחוב" name="add" required>
+			<input type="text" placeholder="מספר שותפים" name="amount" required>
+
+			<section id="regBack">הקודם</section>
+			<input id="regBtn" type="submit" value="הרשם">
+		
+		</section>
+
+
+
+
+
+	</form>
+
+
+
+
+
+
+	</main>
+
+
+
+</div>
+
+
+
+	<script src="./include/js/lib/angular/angular.min.js"></script>
+	<script src="./include/js/reg.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ><!-- ng-app="jsonData" -->
+<head>
+
+	<title>The Apartment</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./include/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/bootstrap/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/basic.css">
+	<link rel="stylesheet" type="text/css" href="./include/css/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body ><!-- ng-controller="jsonDataController" -->
+
+<div id="wrapper">
+
+
+	<main><br>
+
+
+	<article id="topArt">
+		
+		<h1>מי בדירה ?</h1>
+
+	</article>
+
+
+	<form action="https://appserverv1.herokuapp.com/login" method="POST">
+
+		<input type="email"  placeholder="אימייל" name="mail" required>
+		<input type="password" placeholder="סיסמא" name="pass" required>
+
+		<p id="noAcc" >אין לך חשבון?<a href="reg.html"> הרשם עכשיו</a></p>
+		<input id="loginBtn" type="submit" value="התחבר">
+
+	</form>
+
+
+
+
+
+
+	</main>
+
+
+
+</div>
+
+
+
+	<script src="./include/js/lib/angular/angular.min.js"></script>
+	<script src="./include/js/login.js"></script>
+
+
+</body>
+</html>

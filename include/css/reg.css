@@ -1,0 +1,57 @@
+
+
+
+
+#topArt h1{
+
+	color:#FFFFFF;
+}
+
+#topArt h1{
+
+	font-size:50px;
+	line-height: 30px;
+	margin-bottom:50px;
+}
+
+
+
+#regBtn{
+
+	height:7%;
+	width:55%;
+	background-color: #000000;
+	border:none;
+	color:#FFFFFF;
+	font-size:25px;
+	margin-top:30px;
+	z-index:1000;
+}
+
+#regNext, #regBack{
+
+	height:7%;
+	width:55%;
+	background-color: #000000;
+	border:none;
+	color:#FFFFFF;
+	font-size:25px;
+	margin-top:30px;
+	z-index:1000;
+	display: inline-block;
+}
+
+
+#regPart1{
+
+	position:relative;
+	top:0px;
+	visibility: visible;
+	
+}
+#regPart2{
+
+	position:absolute;
+	top:0px;
+	visibility: hidden;
+}

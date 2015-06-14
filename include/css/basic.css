@@ -1,0 +1,56 @@
+
+*{
+
+	margin:0px;
+	padding:0px;
+	outline:none;
+	direction: rtl;
+}
+
+aside, article, header, nav, section, main , footer, body {
+	
+	display:block;
+}
+
+
+body{
+
+	background-color: #FFFFFF;
+}
+
+
+#wrapper{
+
+	background-image:url("./../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ main{
+
+ 	text-align:center;
+ }
+
+form input{
+
+	padding-right:10px;
+	font-size:20px;
+	width:55%;
+	margin-bottom:20px;
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000;
+}
